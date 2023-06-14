@@ -1,11 +1,11 @@
 CREATE TABLE product(
 	product_id SERIAL PRIMARY KEY,
 	name varchar,
-	item_size_oz int,
+	item_size_ounce int,
 	tea_type varchar,
 	brewing_type varchar,
 	price decimal,
-	inventory_amt int
+	inventory_amount int
 	);
 /* 
 TODO:
