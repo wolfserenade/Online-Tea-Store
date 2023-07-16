@@ -1,2 +1,11 @@
-INSERT INTO orders (order_id, customer_id, product_id, unit_price, quantity) VALUES
-	()
+INSERT INTO customers_addresses (customer_id, address_id) VALUES
+	('111', '123a'),  
+	('222', '234a'),  
+	('333', '987a'),  
+	('233', '545a'),  
+	('358', '461a'),  
+	('788', '854a'),  
+	('872', '154a'),  
+	('535', '644a'),  
+	('553', '745a'),  
+	('669', '554a');  
