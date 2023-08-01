@@ -1,4 +1,4 @@
-CREATE TABLE product(
+CREATE TABLE products(
 	product_id SERIAL PRIMARY KEY,
 	name varchar,
 	item_size_ounce int,
@@ -7,8 +7,3 @@ CREATE TABLE product(
 	price decimal,
 	inventory_amount int
 	);
-/* 
-TODO:
-- make tea_type into enum
-- make packaging type into enum
-*/

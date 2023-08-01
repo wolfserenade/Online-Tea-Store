@@ -1,0 +1,1 @@
+CREATE TYPE brewing_type as ENUM ('loose tea', 'teabag', 'powder');

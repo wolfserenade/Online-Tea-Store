@@ -1,0 +1,1 @@
+CREATE TYPE tea_type as ENUM ('black', 'black and decaf', 'green', 'red tea and herbal', 'herbal', 'white', 'oolong');
