@@ -1,6 +1,6 @@
 CREATE TABLE customers_addresses(
-	customer_id int,
-	address_id int,
+	customer_id uuid,
+	address_id uuid,
 	CONSTRAINT fk_customers
     	FOREIGN KEY (customer_id)
       	REFERENCES customers(customer_id),

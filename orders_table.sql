@@ -1,7 +1,7 @@
 CREATE TABLE orders(
-	order_id SERIAL PRIMARY KEY,
-	customer_id int,
-	product_id int,
+	order_id uuid PRIMARY KEY,
+	customer_id uuid,
+	product_id uuid,
 	unit_price decimal,
 	quantity int,
 	CONSTRAINT fk_customers
@@ -9,5 +9,5 @@ CREATE TABLE orders(
       	REFERENCES customers(customer_id),
   	CONSTRAINT fk_products
     	FOREIGN KEY (product_id)
-      	REFERENCES products(product_id),
+      	REFERENCES products(product_id)
 );

@@ -1,5 +1,5 @@
 CREATE TABLE addresses(
-	address_id SERIAL PRIMARY KEY,
+	address_id uuid PRIMARY KEY,
 	street varchar,
 	city varchar,
 	state varchar,
